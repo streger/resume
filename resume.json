@@ -1,0 +1,267 @@
+{
+	"basics": {
+		"name": "Stjepan Treger",
+		"label": "Web developer",
+		"picture": "image.jpg",
+		"email": "stjepan.treger@gmail.com",
+		"phone": "+385 98 978 3130",
+		"url": "http://stjepantreger.from.hr",
+		"summary": "I come from Požega, Croatia, and currently I live in Zagreb. I have studied Faculty of Geodesy, Master of Science in Engineering in Zagreb and in Novi Sad but never graduated from. From early childhood I have played with computers and similar technologies, from hardware assembly to software programming (and almost anything in-between). I&#39;m a huge geek especially for new technologies and I like to be abreast with latest software and hardware product solutions. I enjoy working on open-source projects and advocating for privacy and freedom friendly tools and software.",
+		"location": {
+			"address": "J.E.Tomića 3",
+			"postalCode": "34000",
+			"city": "Požega",
+			"countryCode": "HR",
+			"region": "Požeško-slavonska"
+		},
+		"profiles": [{
+				"network": "LinkedIn",
+				"username": "Stjepan Treger",
+				"url": "https://www.linkedin.com/in/stjepan-treger-49404b110"
+			},
+			{
+				"network": "XING",
+				"username": "Stjepan_Treger",
+				"url": "https://www.xing.com/profile/Stjepan_Treger/"
+			},
+			{
+				"network": "GitHub",
+				"username": "streger",
+				"url": "https://github.com/streger"
+			},
+			{
+				"network": "Twitter",
+				"username": "StjepanTreger",
+				"url": "https://twitter.com/StjepanTreger"
+			},
+			{
+				"network": "Facebook",
+				"username": "stjepan.treger",
+				"url": "https://www.facebook.com/stjepan.treger"
+			}
+		]
+	},
+	"work": [{
+			"summary": "Leading a team on huge Drupal 7 and Drupal 8 commerce projects. Succesfully delivering re-design and architecture re-implementation.",
+			"website": "https://ws.agency",
+			"company": "Websolutions Agency",
+			"location": "Zagreb",
+			"position": "Team Leader, Linux System Administrator",
+			"startDate": "2019-07-01",
+			"highlights": [
+				"Leading a multi-cultural global team while working on successful projects",
+				"Maintaining Linux server systems",
+				"Working on deployment scripts",
+				"Acquia, Platform.sh, AWS, Fastly, custom environments"
+			]
+		},
+		{
+			"summary": "Setup and managment of different Linux servers for Drupal websites. Nginx and Apache optimizations correlated with various PHP-FPM and FCGI setups.",
+			"website": "https://ws.agency",
+			"company": "Websolutions Agency",
+			"location": "Zagreb",
+			"position": "Dev-ops, Linux administrator",
+			"startDate": "2018-09-30",
+			"endDate": "2019-06-30",
+			"highlights": [
+				"Worked on Linux systems setups",
+				"Nginx/Apache servers optimizations",
+				"Solr, Redis, Docker setups for all environments",
+				"RocketChat server setup",
+				"Dev-ops and shell scripting"
+			]
+		},
+		{
+			"summary": "Designing the architecture of the robust systems, including project with migration of Drupal 7 to Drupal 8.",
+			"website": "https://ws.agency",
+			"company": "Websolutions Agency",
+			"location": "Zagreb",
+			"position": "Drupal Architect, Site Builder",
+			"startDate": "2018-02-01",
+			"endDate": "2018-09-30",
+			"highlights": [
+				"Drupal project architect on a big Drupal 8 project",
+				"Worked as full stack developer on multiple medium sized Drupal projects",
+				"Getting more experience with Twig and Javascript"
+			]
+		},
+		{
+			"summary": "Implementation of Drupal 8 project as a big platform for specialized uses in tourism. Several medium sized projects from event like websites to applications used in medical organizations.",
+			"website": "https://ws.agency",
+			"company": "Websolutions Agency",
+			"location": "Zagreb",
+			"position": "Product manager, Web developer",
+			"startDate": "2017-10-01",
+			"endDate": "2018-01-31",
+			"highlights": [
+				"Project manager role with several of successful projects",
+				"Organization and leading",
+				"Communication with clients"
+			]
+		},
+		{
+			"summary": "Leading Drupal agency in Croatia, delivering complex web solutions and online platforms for international clients.",
+			"website": "https://ws.agency",
+			"company": "Websolutions Agency",
+			"location": "Zagreb",
+			"position": "Junior Frontend developer",
+			"startDate": "2016-12-01",
+			"endDate": "2017-09-30",
+			"highlights": [
+				"Jquery, Twig, Vanilla Javascript",
+				"JIRA, git",
+				"Drupal 7, Drupal 8"
+			]
+		}
+	],
+	"volunteer": [{
+			"organization": "Butter Project",
+			"position": "Social Media Manager",
+			"website": "http://butterproject.org/",
+			"startDate": "2015-09-09",
+			"endDate": "2017-04-06",
+			"summary": "We bring world-class, highly distributed and decentralized technologies to their limits.",
+			"highlights": []
+		},
+		{
+			"organization": "Popcorn Time",
+			"position": "Community manager and QA",
+			"website": "http://popcorntime.io/",
+			"startDate": "2014-02-15",
+			"endDate": "2015-09-08",
+			"summary": "Popcorn Time streams movies and TV shows from torrents.",
+			"highlights": [
+				"Discourse admin",
+				"GitHub, Jira, GitLab"
+			]
+		},
+		{
+			"organization": "OpenStreetMap",
+			"position": "General Contributor",
+			"website": "http://www.openstreetmap.org/",
+			"startDate": "2010-06-15",
+			"endDate": "2020-02-09",
+			"summary": "OpenStreetMap powers map data on thousands of web sites, mobile apps, and hardware devices",
+			"highlights": []
+		},
+		{
+			"organization": "Open Source Software",
+			"position": "Translator and Reviewer",
+			"startDate": "2014-02-15",
+			"endDate": "2020-02-09",
+			"summary": "Translation for multiple OSS projects including but not limited to 7-Zip, Adblock Plus, AdBlock, MPC-HC, SumatraPDF, uBlock Origin, Chromium, Mozilla, RocketChat",
+			"highlights": [
+				"Transifex",
+				"Pontoon",
+				"Crowdin",
+				"LingoHub"
+			]
+		}
+	],
+	"education": [{
+			"institution": "Faculty of Technical Sciences, University of Novi Sad",
+			"area": "Bachelor of Science in Engineering",
+			"studyType": "",
+			"startDate": "2011-11-01",
+			"endDate": "2020-02-09",
+			"gpa": "",
+			"courses": []
+		},
+		{
+			"institution": "Faculty of Geodesy, University of Zagreb",
+			"area": "Master of Science in Engineering",
+			"studyType": "",
+			"startDate": "2004-10-01",
+			"endDate": "2011-09-15",
+			"gpa": "",
+			"courses": []
+		},
+		{
+			"institution": "Gymnasium Požega",
+			"area": "Natural sciences - mathematics",
+			"studyType": "",
+			"startDate": "2000-09-04",
+			"endDate": "2004-06-23",
+			"gpa": "",
+			"courses": []
+		}
+	],
+	"awards": [],
+	"publications": [],
+	"skills": [{
+			"name": "Web Development",
+			"level": "80",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"Javascript",
+				"Git",
+				"Node",
+				"Drupal",
+				"Docker"
+			]
+		},
+		{
+			"name": "Computer setup",
+			"level": "70",
+			"keywords": [
+				"OS Setup",
+				"Servers",
+				"Hardware",
+				"Containers",
+				"Software setup",
+				"Multimedia"
+			]
+		},
+		{
+			"name": "Social Media",
+			"level": "60",
+			"keywords": [
+				"Blogging",
+				"Social Networks Management",
+				"Analytics",
+				"Tutorials",
+				"Campaining"
+			]
+		},
+		{
+			"name": "Geoinformatics",
+			"level": "70",
+			"keywords": [
+				"AutoCAD",
+				"ArcGIS",
+				"GeoServer",
+				"Leaflet"
+			]
+		}
+	],
+	"languages": [{
+			"language": "Croatian",
+			"fluency": "Mother tongue"
+		},
+		{
+			"language": "English",
+			"fluency": "Listening: C2, Reading: C2, Spoken interaction: C1, Spoken production: C1, Writing: C2"
+		},
+		{
+			"language": "German",
+			"fluency": "Listening: B1, Reading: B1, Spoken interaction: A2, Spoken production: A2, Writing: B1"
+		}
+	],
+	"interests": [{
+			"name": "Localization",
+			"keywords": [
+				"",
+				""
+			]
+		},
+		{
+			"name": "Privacy and P2P networks",
+			"keywords": [
+				"",
+				""
+			]
+		}
+	],
+	"references": []
+}

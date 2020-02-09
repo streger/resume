@@ -1,366 +1,593 @@
+<!doctype html>
 <html>
-    <head>
-        <meta name="generator"
-        content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link rel="shortcut icon" href="favicon.ico"/>
+	<head>
         <title>Stjepan Treger</title>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Responsive HTML5 Developer Resume for Stjepan Treger">
+        <meta name="generator" content="https://www.npmjs.com/package/jsonresume-theme-orbit/v/1.0.3"/>
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <!-- Global CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        <!-- Plugins CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Theme CSS -->
+        <style>
+                /*
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+/* styles.css */
+/* ======= Base ======= */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+a {
+  color: #2d7788;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a454f;
+}
+a:focus {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+}
+.wrapper {
+  background: #42A8C0;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sidebar-wrapper {
+  background: #42A8C0;
+  position: absolute;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  min-height: 800px;
+  color: #fff;
+}
+.sidebar-wrapper a {
+  color: #fff;
+}
+.sidebar-wrapper .profile-container {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+.sidebar-wrapper .name {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .tagline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sidebar-wrapper .profile {
+  margin-bottom: 15px;
+	clip-path: circle(50px at center);
+}
+.sidebar-wrapper .contact-list .fa {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .contact-list .email .fa {
+  font-size: 14px;
+}
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.sidebar-wrapper .education-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .education-container .item:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .education-container .meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.sidebar-wrapper .education-container .time {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.sidebar-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sidebar-wrapper .languages-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .languages-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .languages-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0;
+}
+.main-wrapper {
+  background: #fff;
+  padding: 60px;
+  padding-right: 300px;
+  min-height: 800px;
+}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.main-wrapper .section-title .fa {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2d7788;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+.main-wrapper .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+.main-wrapper .project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .projects-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 15px;
+}
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
+}
+.footer {
+  padding: 30px;
+  padding-top: 60px;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #545E6C;
+  font-size: 13px;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+
+        </style>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
+
     <body>
-        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css" />
-        <style type="text/css">
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);body{background:#fff;font-family:Lato,sans-serif;margin:0 0
-80px;}a{color:#2ecc71;}a:focus,a:hover{color:#f1c40f;text-decoration:none;}p{line-height:1.5;margin:0;}p+p{margin-top:10px;}h1,h2,h3,h4{margin-top:0}section{margin-top:30px;}li{line-height:1.8;list-style:none;}li:before{content:&quot;\f052&quot;;float:left;font:13px
-Octicons;margin-top:6px;margin-left:-20px;opacity:.1;position:absolute;}blockquote{border-left:5px solid
-#e7e9ec;font-size:14px;}em{color:#95a5a6;font-weight:normal;font-style:normal;}h4
-span:first-child{color:#000;font-weight:bold;}.container{max-width:750px;padding:0 30px;}.col-sm-6{margin-bottom:10px;}.col-sm-12
-h4{margin-top:12px;}.col-sm-12+.col-sm-12{margin-top:30px;}#header{background:#f4f6f6;padding:50px 0;margin-bottom:30px;}#header
-h2{color:#95a5a6;font-size:24px;}#content h3{color:#f1c40f;font-size:26px;margin-top:-4px;}#content
-aside{text-align:right;padding-right:30px;}#profiles .network{text-transform:capitalize;}#work .position,#volunteer
-.position{font-weight:bold;margin-bottom:8px;}#education .area{font-weight:bold;}#education
-.area:before{content:&quot;\f0d7&quot;;font:16px Octicons;margin-right:6px;}#education .studyType{margin-left:25px;}#awards
-.summary,#publications .summary{margin-top:8px;}#publications .website a:before{content:attr(href);}@media (min-width: 480px)
-{.strike-through{border-top:1px solid #f4f6f6;height:20px;margin-top:12px;margin-bottom:-2px;position:relative;}.strike-through
-span,.strike-through a{background:#fff;position:absolute;}.strike-through
-span:first-child{padding-right:20px;margin-top:-12px;}.strike-through
-span+span{font-size:14px;margin-top:-10px;padding-left:20px;right:0;}}@media (max-width: 768px)
-{.col-sm-6:last-child{margin-bottom:0px;}#content aside{margin-bottom:20px;padding-right:0;text-align:left;}#publications .website
-a:before{content:&quot;View publication&quot;;}}@media (max-width: 480px)
-{h1{font-size:26px;}.date{font-size:14px;margin-bottom:5px;}.strike-through span:first-child{margin-bottom:7px;}.strike-through
-span{display:block;}#header{margin-bottom:10px;padding:40px 0;}#actions{display:none;}}
-</style>
-        <header id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-9 col-sm-push-3">
-                        <h1>Stjepan Treger</h1>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div id="content" class="container">
-            <section id="contact" class="row">
-                <aside class="col-sm-3">
-                    <h3>Contact</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <strong>Email</strong>
-                            <div class="email">
-                                <a href="mailto:stjepan.treger@gmail.com">stjepan.treger@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <strong>Phone</strong>
-                            <div class="phone"><a href="tel:+385989783130">+385 98 978 3130</a></div>
-                            <div class="phone"><a href="tel:+381640027065">+381 64 002 7065</a></div>
-                        </div>
-                        <div class="col-sm-6">
-                            <strong>This website</strong>
-                            <div class="website">
-                                <a href="https://stjepantreger.from.hr">stjepantreger.from.hr</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="about" class="row">
-                <aside class="col-sm-3">
-                    <h3>About</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <p>I come from Slavonian village Jakšić located near Slavonska Požega, and currently I live in Zagreb. I have studied Faculty of Geodesy, Master of Science in Engineering in Zagreb, from where I transferred after most of passed exams
-                    (only three left) to Faculty of Technical Sciences at the University of Novi Sad. Here I&#39;m finishing my
-                    bachelors degree. From early childhood I have dealt with computers and similar technologies, from hardware
-                    assembly to software programming (and almost anything in-between). I&#39;m a big geek especially for new
-                    technologies and I like to be abreast with latest software and hardware product solutions.</p>
-                </div>
-            </section>
-            <section id="profiles" class="row">
-                <aside class="col-sm-3">
-                    <h3>Profiles</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <strong class="network">LinkedIn</strong>
-                            <div class="username">
-                                <div class="url">
-                                    <a href="https://www.linkedin.com/in/stjepan-treger-49404b110">Stjepan Treger</a>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+
+            <div class="profile-container">
+							<picture class="profile">
+						    <source srcset="image.webp" type="image/webp">
+						    <source srcset="image.jpg" type="image/jpeg">
+						    <img class="profile" src="image.jpg" alt="profile">
+							</picture>
+                <h1 class="name">Stjepan Treger</h1>
+                <h3 class="tagline">Web developer</h3>
+            </div><!--//profile-container-->
+
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:stjepan.treger@gmail.com">stjepan.treger@gmail.com</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:+385 98 978 3130">+385 98 978 3130</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="http://stjepantreger.from.hr" target="_blank">stjepantreger.from.hr</a></li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/stjepan-treger-49404b110" target="_blank">linkedin.com/in/stjepan-treger-49404b110</a></li>
+                    <li class="xing"><i class="fa fa-xing"></i><a href="https://www.xing.com/profile/Stjepan_Treger/" target="_blank">@Stjepan_Treger</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/streger" target="_blank">@streger</a></li>
+                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/StjepanTreger" target="_blank">@StjepanTreger</a></li>
+                    <li class="facebook"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/stjepan.treger" target="_blank">@stjepan.treger</a></li>
+                </ul>
+            </div><!--//contact-container-->
+
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                    <div class="item">
+                        <h4 class="degree"> in Bachelor of Science in Engineering</h4>
+                        <h5 class="meta">Faculty of Technical Sciences, University of Novi Sad</h5>
+                        <div class="time">2011 - 2020</div>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h4 class="degree"> in Master of Science in Engineering</h4>
+                        <h5 class="meta">Faculty of Geodesy, University of Zagreb</h5>
+                        <div class="time">2004 - 2011</div>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h4 class="degree"> in Natural sciences - mathematics</h4>
+                        <h5 class="meta">Gymnasium Požega</h5>
+                        <div class="time">2000 - 2004</div>
+                    </div><!--//item-->
+            </div><!--//education-container-->
+
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                        <li>Croatian <span class="lang-desc">(Mother tongue)</span></li>
+                        <li>English <span class="lang-desc">(Listening: C2, Reading: C2, Spoken interaction: C1, Spoken production: C1, Writing: C2)</span></li>
+                        <li>German <span class="lang-desc">(Listening: B1, Reading: B1, Spoken interaction: A2, Spoken production: A2, Writing: B1)</span></li>
+                </ul>
+            </div><!--//interests-->
+
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                        <li>Localization</li>
+                        <li>Privacy and P2P networks</li>
+                </ul>
+            </div><!--//interests-->
+
+        </div><!--//sidebar-wrapper-->
+
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Personal Summary</h2>
+                <div class="summary">
+                    <p>I come from Požega, Croatia, and currently I live in Zagreb. I have studied Faculty of Geodesy, Master of Science in Engineering in Zagreb and in Novi Sad but never graduated from either one. From early childhood I have played with computers and similar technologies, from hardware assembly to software programming (and almost anything in-between). I'm a huge geek especially for new technologies and I like to be abreast with latest software and hardware product solutions. I enjoy working on open-source projects and advocating for privacy and freedom friendly tools and software.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Work Experience</h2>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Team Leader, Linux System Administrator</h3>
+                                <div class="time">2019 - Present</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://ws.agency" target="_blank">Websolutions Agency, Zagreb</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Leading a team on huge Drupal 7 and Drupal 8 commerce projects. Succesfully delivering re-design and architecture re-implementation.
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Dev-ops, Linux administrator</h3>
+                                <div class="time">2018 - 2019</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://ws.agency" target="_blank">Websolutions Agency, Zagreb</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Setup and managment of different Linux servers for Drupal websites. Nginx and Apache optimizations correlated with various PHP-FPM and FCGI setups.
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Drupal Architect, Site Builder</h3>
+                                <div class="time">2018 - 2018</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://ws.agency" target="_blank">Websolutions Agency, Zagreb</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Designing the architecture of the robust systems, including project with migration of Drupal 7 to Drupal 8.
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Product manager, Web developer</h3>
+                                <div class="time">2017 - 2018</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://ws.agency" target="_blank">Websolutions Agency, Zagreb</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Implementation of Drupal 8 project as a big platform for specialized uses in tourism. Several medium sized projects from event like websites to applications used in medical organizations.
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Junior Frontend developer</h3>
+                                <div class="time">2016 - 2017</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://ws.agency" target="_blank">Websolutions Agency, Zagreb</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Leading Drupal agency in Croatia, delivering complex web solutions and online platforms for international clients.
+                        </div><!--//details-->
+                    </div><!--//item-->
+            </section><!--//section-->
+
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-handshake-o"></i>Volunteer Work</h2>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Social Media Manager</h3>
+                                <div class="time">2015 - 2017</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="http://butterproject.org/" target="_blank">Butter Project</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            We bring world-class, highly distributed and decentralized technologies to their limits.
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Community manager and QA</h3>
+                                <div class="time">2014 - 2015</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="http://popcorntime.io/" target="_blank">Popcorn Time</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Popcorn Time streams movies and TV shows from torrents.
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">General Contributor</h3>
+                                <div class="time">2010 - 2020</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            OpenStreetMap powers map data on thousands of web sites, mobile apps, and hardware devices
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Translator and Reviewer</h3>
+                                <div class="time">2014 - 2020</div>
+                            </div><!--//upper-row-->
+                            <div class="company">Open Source Software</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Translation for multiple OSS projects including but not limited to 7-Zip, Adblock Plus, AdBlock, MPC-HC, SumatraPDF, uBlock Origin, Chromium, Mozilla, RocketChat
+                        </div><!--//details-->
+                    </div><!--//item-->
+            </section><!--//section-->
+
+
+
+
+						<section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset">
+                        <div class="item">
+                            <h3 class="level-title">Web Development</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="80%">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <strong class="network">Drupal.org</strong>
-                            <div class="username">
-                                <div class="url">
-                                    <a href="https://www.drupal.org/u/streger">Stjepan Treger</a>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Computer setup</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="70%">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <strong class="network">Twitter</strong>
-                            <div class="username">
-                                <div class="url">
-                                    <a href="https://twitter.com/StjepanTreger">StjepanTreger</a>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Social Media</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="60%">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <strong class="network">GitHub</strong>
-                            <div class="username">
-                                <div class="url">
-                                    <a href="https://github.com/streger">streger</a>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Geoinformatics</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="70%">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <strong class="network">Facebook</strong>
-                            <div class="username">
-                                <div class="url">
-                                    <a href="https://www.facebook.com/stjepan.treger">stjepan.treger</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+
                 </div>
-            </section>
-            <section id="work" class="row">
-                <aside class="col-sm-3">
-                    <h3>Work</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>WS Agency</span>
-                            <span class="date">2018-09-30 — now</span></h4>
-                            <div class="website pull-right">
-                                <a href="http://ws.agency">http://ws.agency</a>
-                            </div>
-                            <div class="position">Dev-ops, Linux administrator</div>
-                            <div class="summary">
-                                <p>Worked on Linux systems setups, webserver optimization, dev-ops and shell scripting.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>WS Agency</span>
-                            <span class="date">2018-02-01 — 2018-09-30</span></h4>
-                            <div class="website pull-right">
-                                <a href="http://ws.agency">http://ws.agency</a>
-                            </div>
-                            <div class="position">Drupal Architect, Site Builder</div>
-                            <div class="summary">
-                                <p>Worked as Drupal architect on one big Drupal 8 project, and multiple medium sized Drupal projects.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>WS Agency</span>
-                            <span class="date">2017-10-01 — 2018-01-31</span></h4>
-                            <div class="website pull-right">
-                                <a href="http://ws.agency">http://ws.agency</a>
-                            </div>
-                            <div class="position">Product manager / Web developer</div>
-                            <div class="summary">
-                                <p>Worked at several projects and as project manager lead couple of succesful projects.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>WS Agency</span>
-                            <span class="date">2016-12-01 — 2017-09-30</span></h4>
-                            <div class="website pull-right">
-                                <a href="http://ws.agency">http://ws.agency</a>
-                            </div>
-                            <div class="position">Junior Frontend developer</div>
-                            <div class="summary">
-                                <p>Websolutions Agency is the industry leading Drupal development agency in Croatia. We deliver expert web solutions for strategy, architecture, UX, design and custom web development.</p>
-                            </div>
-                        </div>
-                      </div>
-                  </div>
-            </section>
-            <section id="volunteer" class="row">
-                <aside class="col-sm-3">
-                    <h3>Volunteer</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>Butter Project</span>
-                            <span class="date">2015-09-09 — now</span></h4>
-                            <div class="website pull-right">
-                                <a href="http://butterproject.org/">http://butterproject.org/</a>
-                            </div>
-                            <div class="position">Social Media Manager</div>
-                            <div class="summary">
-                                <p>We bring world-class, highly distributed and decentralized technologies to their limits.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>Popcorn Time</span>
-                            <span class="date">2014-02-15 — 2015-09-08</span></h4>
-                            <div class="website pull-right">
-                                <a href="http://popcorntime.io/">http://popcorntime.io/</a>
-                            </div>
-                            <div class="position">Community manager, implementation advisor and in-house application tester</div>
-                            <div class="summary">
-                                <p>Popcorn Time streams movies and TV shows from torrents.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>OpenStreetMap</span>
-                            <span class="date">2010-06-15 — now</span></h4>
-                            <div class="website pull-right">
-                                <a href="http://www.openstreetmap.org/">http://www.openstreetmap.org/</a>
-                            </div>
-                            <div class="position">General Map Contributor, Translator, Blog editor</div>
-                            <div class="summary">
-                                <p>OpenStreetMap powers map data on thousands of web sites, mobile apps, and hardware devices</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>Open Source Software</span>
-                            <span class="date">2005-06-15 — now</span></h4>
-                            <div class="website pull-right">
-                                <a href="http://registry.jsonresume.org/"></a>
-                            </div>
-                            <div class="position">Translator and Reviewer</div>
-                            <div class="summary">
-                                <p>7-Zip, Adblock Plus, AdBlock, MPC-HC, SumatraPDF, uBlock</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="education" class="row">
-                <aside class="col-sm-3">
-                    <h3>Education</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h4 class="strike-through">
-                            <span>Gymnasium Požega</span>
-                            <span class="date">2000-09-04 — 2004-06-23</span></h4>
-                            <div class="area">Natural sciences-mathematics</div>
-                            <div class="studyType"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="skills" class="row">
-                <aside class="col-sm-3">
-                    <h3>Skills</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="name">
-                                <h4>Social Media</h4>
-                            </div>
-                            <ul class="keywords">
-                                <li>Blogging</li>
-                                <li>Social Networks Management</li>
-                                <li>Analytics</li>
-                                <li>Tutorials</li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="name">
-                                <h4>Web Development</h4>
-                            </div>
-                            <ul class="keywords">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                                <li>Git</li>
-                                <li>PHP</li>
-                                <li>Node</li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="name">
-                                <h4>Computer maintainer</h4>
-                            </div>
-                            <ul class="keywords">
-                                <li>OS Setup</li>
-                                <li>Servers</li>
-                                <li>Hardware</li>
-                                <li>Containerized setups</li>
-                                <li>Application Setup</li>
-                                <li>Multimedia</li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="name">
-                                <h4>Geoinformatics</h4>
-                            </div>
-                            <ul class="keywords">
-                                <li>AutoCAD</li>
-                                <li>ArcGIS</li>
-                                <li>GeoServer</li>
-                                <li>Leaflet</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="languages" class="row">
-                <aside class="col-sm-3">
-                    <h3>Languages</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="language">
-                                <strong>Bosnian, Croatian, Montenegrin, Serbian both scripts Цyриллиц and latin</strong>
-                            </div>
-                            <div class="fluency">Mother tongue</div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="language">
-                                <strong>English</strong>
-                            </div>
-                            <div class="fluency">Speak, comprehension and writing</div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="language">
-                                <strong>Deutsch</strong>
-                            </div>
-                            <div class="fluency">Basic speak, comprehension and writing</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="interests" class="row">
-                <aside class="col-sm-3">
-                    <h3>Interests</h3>
-                </aside>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="name">
-                                <h4>P2P networks</h4>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="name">
-                                <h4>Localization</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+            </section><!--//skills-section-->
+
+        </div><!--//main-body-->
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script type="text/javascript">
+            jQuery(document).ready(function($) {
+
+
+    /*======= Skillset *=======*/
+
+
+    $('.level-bar-inner').css('width', '0');
+
+    $('.level-bar-inner').each(function() {
+
+        var itemWidth = $(this).data('level');
+
+        $(this).animate({
+            width: itemWidth
+        }, 800);
+
+    });
+
+
+
+});
+    </script>
     </body>
 </html>
